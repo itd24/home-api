@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# compiled output
+dist
+build
+
+# environment files (only .env.example is committed)
+app/.env
+app/.docker.env
+
+# logs
+*.log
+
+# test output
+coverage
+.nyc_output
+
+# IDE
+.idea
+.vscode
+
+# generated LaTeX test output
+app/samples/*.aux
+app/samples/*.fls
+app/samples/*.fdb_latexmk
+app/samples/*.pdf
+
+# personal assets that must be provided locally
+storage/signature.png

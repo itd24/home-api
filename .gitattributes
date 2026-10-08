@@ -1,0 +1,13 @@
+# normalise line endings for everyone who clones this repository
+* text=auto eol=lf
+
+# batch files only run on Windows and want CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# binary assets
+*.png binary
+*.jpg binary
+*.ico binary
+*.otf binary
+*.pdf binary
